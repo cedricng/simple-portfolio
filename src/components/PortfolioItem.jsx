@@ -17,7 +17,7 @@ const customStyles = {
    },
  };
 
-function PortfolioItem({ title, imgUrl, videoUrl, stack, github, link }) {
+function PortfolioItem({ title, imgUrl, videoUrl, stack, github, link, description }) {
    let subtitle;
    const [modalIsOpen, setIsOpen] = React.useState(false);
  
@@ -85,6 +85,8 @@ function PortfolioItem({ title, imgUrl, videoUrl, stack, github, link }) {
                   
                ))}
             </p>
+            <br></br>
+            <p>{description}.</p>
          </div>
          </div>
          
