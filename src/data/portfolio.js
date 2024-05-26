@@ -25,7 +25,7 @@ export default [
       stack: ['ASP .NET', 'SQL Server', 'Angular'],
       description:'Site E-commerce développée avec ASP .NET et Angular permettant de sélectionner et de commander des articles'
    },
-    {
+    /*{
       title: 'App Crypto',
       imgUrl: '/assets/crypto.png',
       videoUrl:'/assets/crypto.mp4',
@@ -33,6 +33,14 @@ export default [
       github: 'https://github.com/cedricng/React-Crypto-App',
       link: 'https://crypto-react-ngoupande.netlify.app/',
       description:'Application Web développée en Réact permettant de consulter des informations sur différentes cryptomonnaies'
+   },*/
+   {
+      title: 'FullStack Movies ',
+      imgUrl: '/assets/spring.png',
+      videoUrl:'/assets/spring2.mp4',
+      stack: ['Spring', 'MongoDB', 'React'],
+      github: 'https://github.com/cedricng/SpringBootMovies',
+      description:'Application FullStack SpringBoot/React permettant de visionner des trailers de différents films et de soumettre des avis stockés dans une base de données MongoDB'
    },
    {
       title: 'App React-Native',

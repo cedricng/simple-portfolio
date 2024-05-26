@@ -44,4 +44,14 @@ export default [
       imgUrl: '/assets/vite.jpg',
       
    },
+   {
+      title: 'Spring',
+      imgUrl: '/assets/spring_boot.png',
+      
+   },
+   {
+      title: 'Mongo DB',
+      imgUrl: '/assets/mongo.png',
+      
+   },
  ]
