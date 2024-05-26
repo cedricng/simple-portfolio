@@ -45,7 +45,7 @@ function PortfolioItem({ title, imgUrl, videoUrl, stack, github, link, descripti
         contentLabel="Example Modal"
       >
         <CloseIcon onClick={closeModal}>close</CloseIcon>
-        <video className='vid'  width="800" autoplay="autoplay"  muted><source src={videoUrl} type="video/mp4" /></video>
+        <video className='vid' preload='auto'  width="800" autoplay="autoplay"  muted><source src={videoUrl} type="video/mp4" /></video>
         <script>
     document.getElementsByClassName('vid').play();
 </script>
